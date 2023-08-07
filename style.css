@@ -72,3 +72,26 @@ strong {
   font-weight: bold;
 }
 
+button {
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  color: white;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+
+  background: #69b99d;
+  padding: 0.8rem 2rem 0.8rem;
+  border-radius: 0.3rem;
+  border: 0;
+
+  cursor: pointer;
+}
+
+button:hover {
+    background: #55b694;
+}
+
+
