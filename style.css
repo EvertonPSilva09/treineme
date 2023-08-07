@@ -12,3 +12,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #89C5CC;
+}
+
