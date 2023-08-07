@@ -94,4 +94,16 @@ button:hover {
     background: #55b694;
 }
 
-
+footer {
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  footer a {
+    font-weight: bold;
+    color: #1f1534;
+  }
