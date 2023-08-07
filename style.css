@@ -60,3 +60,15 @@ span {
   font-weight: bold;
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #7d7987;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-bottom: 2.5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
