@@ -49,3 +49,9 @@ main {
   justify-content: space-between;
 }
 
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
