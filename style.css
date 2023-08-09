@@ -1,10 +1,22 @@
 body {
-  margin: 1rem;
+  margin: 0;
+
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.8%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
 }
 
 .page {
   width: 62rem;
-  margin: 4rem auto 0;
+  margin: 0 auto;
+
+  padding-top: 4rem;
 }
 
 nav {
@@ -32,10 +44,12 @@ ul {
 
 ul li a {
   color: #1f1534;
+  opacity: 0.5;
 }
 
 ul li a:hover {
   color: #1f1534;
+  opacity: 1;
   font-weight: bold;
 }
 
@@ -91,19 +105,25 @@ button {
 }
 
 button:hover {
-    background: #55b694;
+  background: #55b694;
 }
 
 footer {
-    font-family: "Mulish", sans-serif;
-    font-size: 1rem;
-    line-height: 1.7rem;
-  
-    text-align: center;
-    margin-top: 5rem;
-  }
-  
-  footer a {
-    font-weight: bold;
-    color: #1f1534;
-  }
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7rem;
+
+  text-align: center;
+  margin-top: 5rem;
+}
+
+footer a {
+  font-weight: bold;
+  color: #1f1534;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
